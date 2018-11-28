@@ -1,0 +1,24 @@
+[main]
+Class="Function"
+Prototype="int main(int argc, char **argv);"
+
+[QuitCallback]
+Class="Function"
+Prototype="int QuitCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[show]
+Class="Function"
+Prototype="int show(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[show_linear]
+Class="Function"
+Prototype="int show_linear(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[show_exp]
+Class="Function"
+Prototype="int show_exp(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[show_pol]
+Class="Function"
+Prototype="int show_pol(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
